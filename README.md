@@ -7,18 +7,29 @@ Ce projet est un outil simple de scan réseau et d’analyse des services actifs
 Il permet de :
 
 scanner un réseau local
+
 identifier les machines connectées
+
 détecter les ports ouverts
+
 analyser les services actifs
+
 attribuer un score de risque de sécurité
+
 Fonctionnalités
 
 Scan du réseau local
+
 Détection des machines actives
+
 Identification des ports ouverts
+
 Détection des services (HTTP, SSH, SMB, etc.)
+
 Analyse basique des risques de sécurité
+
 Score de sécurité par machine
+
 Génération de sortie lisible en terminal
 
 Analyse de sécurité intégrée
