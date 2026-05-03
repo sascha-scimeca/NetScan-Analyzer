@@ -1,6 +1,6 @@
 # NetScan-Analyzer
 Network Scanner & Port Analyzer
-Description
+# Description
 
 Ce projet est un outil simple de scan réseau et d’analyse des services actifs basé sur Nmap.
 
@@ -16,7 +16,7 @@ analyser les services actifs
 
 attribuer un score de risque de sécurité
 
-Fonctionnalités
+# Fonctionnalités
 
 Scan du réseau local
 
@@ -32,7 +32,7 @@ Score de sécurité par machine
 
 Génération de sortie lisible en terminal
 
-Analyse de sécurité intégrée
+# Analyse de sécurité intégrée
 
 Le projet attribue des niveaux de risque selon les ports détectés :
 
@@ -46,7 +46,7 @@ XML parsing (xml.etree.ElementTree)
 Nmap (scan réseau)
 Système Windows
 
-Utilisation
+# Utilisation
 1. Lancer un scan réseau
 nmap -sT -sV -oX scan.xml 192.168.1.0/24
 2. Lancer le script Python
@@ -57,7 +57,7 @@ Machine: 192.168.1.149
   Port 139 -> netbios-ssn -> NetBIOS ancien (risqué)
   -> Score sécurité : 9 (RISQUE ÉLEVÉ)
    
-Objectif du projet
+# Objectif du projet
 
 Ce projet a été conçu pour apprendre :
 
